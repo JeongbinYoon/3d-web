@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#container {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  margin: 10px 0;
+  color: #483d8b;
+}
+
+.input {
+  margin: 0;
+}
+
+.input input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 5px;
+}
+
+.input .input-id,
+.input .input-pw {
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.input .input-submit {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #483d8b;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+}
+.register {
+  margin: 0;
+  position: absolute;
+  right: 0px;
+}
