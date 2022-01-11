@@ -72,7 +72,30 @@ body {
   margin: 0;
 }
 
-/* container */
+/* seachBox */
+.search-box {
+  width: 350px;
+  margin: 0 auto;
+  font-size: var(--font-regular);
+  color: var(--color-dark-slate-blue);
+  position: relative;
+}
+.search-box .search-bar {
+  width: 100%;
+  padding: 15px;
+  font-size: var(--font-regular);
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+.search-box .fa-search {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* items */
 #container {
   width: 1200px;
   padding-top: 30px;
