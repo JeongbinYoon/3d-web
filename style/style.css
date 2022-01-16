@@ -71,6 +71,7 @@ body {
 
 .logo {
   margin: 0;
+  color: var(--color-white);
 }
 
 /* banner */
@@ -103,6 +104,7 @@ body {
   font-size: var(--font-regular);
   border: 1px solid #ccc;
   border-radius: var(--size-border-radius-large);
+  outline: none;
 }
 
 .search-box .fa-search {
@@ -110,6 +112,7 @@ body {
   right: 20px;
   top: 50%;
   transform: translateY(-50%);
+  cursor: pointer;
 }
 
 /* Categories */
@@ -169,6 +172,11 @@ body {
   width: 280px;
   border: 1px solid var(--color-grey);
   margin: 10px;
+  transition: 0.2s;
+}
+
+#container .items .item:hover {
+  transform: scale(1.1);
 }
 
 #container .items .item .item-img {
@@ -239,8 +247,16 @@ body {
     margin-bottom: 15px;
   }
 
+  #container .items .item :hover {
+    width: 52%;
+  }
+
   #container .items .item .item-info {
     font-size: 0.7rem;
     padding: 3%;
+  }
+
+  .categories-container .category-item {
+    padding: 10px;
   }
 }
